@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="#5B67A8">
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="50dp"
+        >
+        <ImageView
+            android:id="@+id/usrprofile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/guss2"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/usrName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:fontFamily="@font/caviardreams"
+        android:textColor="#BFFFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caviardreams"
+        android:text="abcxyz1234@gmail.com"
+        android:textSize="15sp"
+        android:textColor="#BFFFFFFF"/>
+</LinearLayout>

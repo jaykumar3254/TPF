@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/scihome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/textback"
+        android:src="@drawable/guss7" />
+    <HorizontalScrollView
+        android:id="@+id/sciscrill1"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:scrollbars="none"
+        android:foregroundGravity="center"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:paddingStart="10dp"
+           android:layout_marginStart="10dp"
+           android:paddingEnd="10dp"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/be"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:background="@drawable/textback"
+               android:text="BE / BTECH"
+               android:textSize="20sp"
+               android:fontFamily="@font/caviardreams"
+               android:padding="10dp"/>
+
+           <Button
+               android:id="@+id/me"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_marginStart="20dp"
+               android:background="@drawable/textback"
+               android:fontFamily="@font/caviardreams"
+               android:padding="10dp"
+               android:text="ME / M.TECH"
+               android:textSize="20sp" />
+
+           <Button
+               android:id="@+id/bos1"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:background="@drawable/textback"
+               android:text="BACHLOR OF SCIENCE"
+               android:layout_marginStart="20dp"
+               android:textSize="20sp"
+               android:fontFamily="@font/caviardreams"
+               android:padding="10dp"/>
+           <Button
+               android:id="@+id/mos1"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:background="@drawable/textback"
+               android:text="MASTERS OF SCIENCE"
+               android:layout_marginStart="20dp"
+               android:textSize="20sp"
+               android:fontFamily="@font/caviardreams"
+               android:padding="10dp"/>
+           <Button
+               android:id="@+id/boe1"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:background="@drawable/textback"
+               android:text="BACHLOR OF EDUCATION"
+               android:layout_marginStart="20dp"
+               android:textSize="20sp"
+               android:fontFamily="@font/caviardreams"
+               android:padding="10dp"/>
+           <Button
+               android:id="@+id/moe1"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:background="@drawable/textback"
+               android:text="MASTERS OF EDUCATION"
+               android:layout_marginStart="20dp"
+               android:textSize="20sp"
+               android:layout_marginEnd="20dp"
+               android:fontFamily="@font/caviardreams"
+               android:padding="10dp"/>
+
+       </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout
+        android:id="@+id/framelay1"
+        android:layout_below="@id/sciscrill1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/textback"
+        android:layout_margin="20dp"/>
+</RelativeLayout>

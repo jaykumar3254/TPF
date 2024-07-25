@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/arthome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/textback"
+        android:src="@drawable/guss7" />
+    <HorizontalScrollView
+        android:id="@+id/artscrill1"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:scrollbars="none"
+        android:foregroundGravity="center"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingStart="10dp"
+            android:layout_marginStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/ba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textback"
+                android:text="BACHLOR OF ARTS"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/ma"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/textback"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"
+                android:text="MASTER OF ARTS"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="BACHLOR OF EDUCATION"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/med"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="MASTER OF EDUCATION"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/bsw"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="BACHLOR OF SOCIAL WORK"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/msw"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="MASTER OF SOCIAL WORK"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/mphil"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="MASTER OF PHILOSOPHY"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/phd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="DOCTOR OF PHILOSOPHY"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/aframelay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/artscrill1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/textback" />
+</RelativeLayout>

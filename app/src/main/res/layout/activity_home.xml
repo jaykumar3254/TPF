@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textback"
+        android:src="@drawable/menu"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/home2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:src="@drawable/guss5"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:id="@+id/home1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/textback"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/home3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home1"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/lovan"
+        android:text="Your Intrests"
+        android:textSize="35dp" />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/speker"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/speaker"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/home1"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textback"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:clickable="false"
+        android:layerType="software"
+        android:src="@drawable/fp1" />
+    <RelativeLayout
+        android:id="@+id/science"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/textback"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/sci1"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/science" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/sci1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="center"
+            android:text="SCIENCE"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/commerce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/science"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/textback"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/com1"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/commers" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/com1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="center"
+            android:text="COMMERCE"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/arts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/commerce"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/textback"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/art1"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/arts" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/art1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="center"
+            android:text="ARTS"
+            android:textSize="25sp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/comhome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/textback"
+        android:src="@drawable/guss7" />
+    <HorizontalScrollView
+        android:id="@+id/comscroll1"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/bcom11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="BACHELOR OF COMMERCE"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/mcom11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="MASTER OF COMMERSE"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/bba11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="BACHLOR OF BUSINESS ADMINISTRATION"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/bca11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="BACHLOR OF COMPUTER APPLICATION"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/bms11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="BACHLOR OF MANAGEMENT STUDIES"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/mba11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="MASTERS OF BUSINESS ADMINISTRATION"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/ca11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textback"
+                android:text="CHARTERED ACCOUNTANT"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/caviardreams"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout
+        android:id="@+id/cframelay1"
+        android:layout_below="@id/comscroll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/textback"
+        android:layout_margin="20dp"/>
+</RelativeLayout>

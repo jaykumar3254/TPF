@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/guss8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"/>
+    <RelativeLayout
+        android:id="@+id/r11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/textback">
+        <TextView
+            android:id="@+id/tpname11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOPIC NAME 1(MTECH)"
+            android:lines="2"
+            android:padding="10dp"
+            android:fontFamily="@font/caviardreams"
+            android:textSize="18sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ytname11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by : ytber name"
+            android:lines="2"
+            android:gravity="start"
+            android:padding="10dp"
+            android:fontFamily="@font/caviardreams"
+            android:textSize="14sp"
+            android:layout_below="@+id/tpname11"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btnback"
+            android:fontFamily="@font/caviardreams"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/tpname11"
+            android:text="PLAY" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/r22"
+        android:layout_below="@+id/r11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/textback">
+        <TextView
+            android:id="@+id/tpname22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOPIC NAME 2"
+            android:lines="2"
+            android:padding="10dp"
+            android:fontFamily="@font/caviardreams"
+            android:textSize="18sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ytname22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by : ytber name"
+            android:lines="2"
+            android:gravity="start"
+            android:padding="10dp"
+            android:fontFamily="@font/caviardreams"
+            android:textSize="14sp"
+            android:layout_below="@+id/tpname22"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btnback"
+            android:fontFamily="@font/caviardreams"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/tpname22"
+            android:text="PLAY" />
+    </RelativeLayout>
+</RelativeLayout>

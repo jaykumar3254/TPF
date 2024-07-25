@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Projectw" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:itemTextAppearance">@style/Customtextitem</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Projectw" parent="Base.Theme.Projectw" />
+    <style name="Customtextitem" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="fontFamily">@font/caviardreams</item>
+        <item name="android:background">@drawable/textback</item>
+    </style>
+    <style name="spinner1">
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
